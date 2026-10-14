@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf2f9;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 850px;
+}
+
+.page {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.form-box {
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+h1, h2 {
+    color: #172b4d;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.task-badge {
+    display: inline-block;
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.back-link {
+    display: inline-block;
+    color: #2563eb;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #334155;
+}
+
+.form-control, .form-select {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.btn-primary {
+    background: #2563eb;
+    border-color: #2563eb;
+    border-radius: 8px;
+    padding: 11px 22px;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    padding: 11px 22px;
+}
+
+.task-link {
+    display: block;
+    padding: 18px;
+    background: #f8fafc;
+    color: #2563eb;
+    text-decoration: none;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.task-link:hover {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+/* Basic HTML forms */
+.basic-form label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.basic-form input,
+.basic-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.basic-form input:focus,
+.basic-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.basic-form button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.basic-form button:hover {
+    background: #1d4ed8;
+}
+
+@media (max-width: 576px) {
+    .page {
+        padding-top: 20px;
+    }
+
+    .form-box {
+        padding: 22px;
+    }
+}
